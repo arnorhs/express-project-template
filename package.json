@@ -1,0 +1,25 @@
+{
+  "name": "express-project-template",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "~3.4.7",
+    "jade": "*",
+    "stylus": "*",
+    "express-route-controller": "0.0.3",
+    "browserify-middleware": "~2.2.0"
+  },
+  "description": "My template for express projects",
+  "main": "index.js",
+  "keywords": [
+    "code",
+    "review",
+    "cr",
+    "webrtc"
+  ],
+  "author": "Arnor Heidar Sigurdsson <arnorhs@gmail.com>",
+  "license": "MIT"
+}
