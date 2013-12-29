@@ -10,7 +10,8 @@
     "jade": "*",
     "stylus": "*",
     "express-route-controller": "0.0.3",
-    "browserify-middleware": "~2.2.0"
+    "browserify-middleware": "~2.2.0",
+    "cf": "0.0.3"
   },
   "description": "My template for express projects",
   "main": "index.js",
