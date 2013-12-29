@@ -11,6 +11,13 @@ $ npm install
 $ npm init
 ```
 
+### What's bundled
+- express using stylus & jade
+- all the express config wrapped in `./lib/express.js`
+- browserify middleware compiling from `./client/main.js`
+- cf environment specific config accessed by doing `require('./config')`
+- express-route-controller using the `./config/routes.json` for routes => controllers/*
+
 Feel free to use it as well, even though I'm creating this just for myself.
 
 I might make it more easily reusable one day with a global bin command such as:
